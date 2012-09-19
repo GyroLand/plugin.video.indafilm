@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.indafilm" name="IndaFilm" version="1.0" provider-name="Kolb Zoltan">
+<addon id="plugin.video.indafilm" name="IndaFilm" version="1.0" provider-name="Zoltan Kolb">
   <requires>
     <import addon="xbmc.python" version="1.0"/>
     <import addon="script.module.pyamf" version="0.6.1"/>
