@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.indafilm" name="IndaFilm" version="1.0" provider-name="Kolb Zoltan">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+    <import addon="script.module.pyamf" version="0.6.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang='en'>IndaFilm - Hungarian Movies, Documentaries and more from IndaVideo</summary>
+    <description lang='en'>IndaFilm service plugin. Contains movies, documentaries, short films, animations and more from IndaVideo's IndaFilm.</description>
+    <summary lang='hu'>IndaFilm - Magyar filmek, dokumentumfilmek és egyebek az IndaVideóról</summary>
+    <description lang='hu'>IndaFilm plugin. Filmek, dokumentumfilmek, kisfilmek, animációk és egyebek az IndaVideo IndaFilm menüjéből.</description>
+  </extension>
+</addon>
